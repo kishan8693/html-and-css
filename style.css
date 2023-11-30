@@ -1,0 +1,188 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.main-div{
+    height: 500px;
+    width: 100%;
+    background-color: antiquewhite;
+}
+.parent-div{
+    height: 500px;
+    width: 16.66%;
+    float: left;
+    background-color: darkcyan;
+}
+.bgb{
+    background-color: blue;
+}
+.bgr{
+    background-color: red;
+}
+.bgo{
+    background-color: orange;
+}
+.bgg{
+    background-color: green;
+}
+.bgy{
+    background-color: yellow;
+}
+.name{
+    display: none;
+}
+.trending-products{
+    height: 500px;
+    width: 100%;
+    background-color:blanchedalmond
+}
+.prod-1{
+    height: 500px;
+    width: 20%;
+    float: left;
+    background-color: red;
+    margin-left: 120px;
+}
+.prod-2{
+    height: 500px;
+    width: 20%;
+    float: left;
+    background-color: green;
+    margin-left: 20px;
+}
+.prod-3{
+    height: 500px;
+    width: 20%;
+    float: left;
+    background-color:orange;
+    margin-left: 20px;
+}
+.prod-4{
+    height: 500px;
+    width: 20%;
+    float: left;
+    background-color: gray;
+    margin-left: 20px;
+}
+.trending-products img{
+    height: 300px;
+    width: 100%;
+    margin:0px;
+}
+
+.product-type{
+    color: #333333;
+    font:  20px "open sans",sans-serif;
+}
+.trending-products h2{
+    color: #111111;
+    font: 22px "open sans",serif;
+    font-weight: 500;
+    padding-top: 5px;
+}
+.trending-products i{
+    align-items: center;    
+}
+
+.rate{
+    display: block;
+   
+    font-size: 20px;
+    color: #111111;
+    padding-top: 5px;
+}
+.center{
+    text-align: center;
+}
+.trending-products i{
+    margin:auto;
+}
+.star{
+    text-align: center;
+}
+@media(max-width:500px){
+    .parent-div{
+        height: 500px;
+        width: 50%;
+        float: left;
+        background-color: darkcyan;
+    }
+    .bgb{
+        background-color: blue;
+        width: 50%;
+    }
+    .bgo{
+        background-color: orange;
+        width: 100%;
+    }
+    .bgr{
+        background-color: red;
+    }
+    .bgg{
+        background-color: green;
+    }
+    .bgy{
+        background-color: yellow;
+        width: 100%;
+    }
+
+@media(max-width:500px){
+    .name{
+        color: red;
+        display: block;
+    }
+}
+}
+@media(max-width:500px){
+    .prod-1{
+        height: 500px;
+        width: 100%;
+        float: left;
+        background-color: white;
+        margin: 0px;
+        align-items: center;
+    }
+    .prod-1 h2{
+        font-style: bold;
+        font-weight: 600;
+
+    }
+    .prod-2{
+        height: 500px;
+        width: 100%;
+        float: left;
+        background-color: white;
+        margin: 0px;
+    }
+    .prod-2 h2{
+        font-style: bold;
+        font-weight: 600;
+
+    }
+    .prod-3{
+        height: 500px;
+        width: 100%;
+        float: left;
+        background-color:white;
+        margin:0px;
+    }
+    .prod-3 h2{
+        font-style: bold;
+        font-weight: 600;
+
+    }
+    .prod-4{
+        height: 500px;
+        width: 100%;
+        float: left;
+        background-color: white;
+        margin: 0px;
+        
+    }
+    .prod-4 h2{
+        font-style: bold;
+        font-weight: 600;
+
+    }
+    
+}
